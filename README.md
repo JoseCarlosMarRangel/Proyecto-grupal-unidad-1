@@ -4,3 +4,5 @@ Robot Limpiador de Superficies (Configuración 3 casillas) - Con conocimiento co
 ***********************************
 ** Recomiendo usar bettercomment **
 ***********************************
+
+https://github.com/JoseCarlosMarRangel/Proyecto-grupal-unidad-1-Robot-Limpiador/blob/master/proyecto-grupal-3-casillas.png
