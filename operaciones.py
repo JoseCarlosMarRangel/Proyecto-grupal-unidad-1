@@ -12,6 +12,7 @@ def acciones(estado_meta, costo):
     input_status = input(
         "Ingrese el estado del punto inicial: ")  # ! limpio o sucio (0,1)
     input_suciolimpio = input("Ingrese el estado de B: ")
+    input_suciolimpio2 = input("Ingrese el estado de C: ")
     print("La condicion inicial es:" + str(estado_meta))
 
     if input_ubicacion == 'A':
