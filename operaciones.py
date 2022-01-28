@@ -11,8 +11,8 @@ def acciones(estado_meta, costo):
     input_ubicacion = input("Ingrese la ubicacion: ")
     input_status = input(
         "Ingrese el estado del punto inicial: ")  # ! limpio o sucio (0,1)
-    input_suciolimpio = input("Ingrese el estado de B: ")
-    input_suciolimpio2 = input("Ingrese el estado de C: ")
+    input_suciolimpio = input("Ingrese el estado del siguiente cuarto: ")
+    #ssinput_suciolimpio2 = input("Ingrese el estado de C: ")
     print("La condicion inicial es:" + str(estado_meta))
 
     if input_ubicacion == 'A':
@@ -92,7 +92,7 @@ def acciones(estado_meta, costo):
                 print("Sin accion" + str(costo))
                 print("La  ubicacion A esta limpia")
 
-    elif input_ubicacion == 'C':
+    """"elif input_ubicacion == 'C':
         print("La ubicacion es C")
         if input_status == '1':
             print("El punto inicial esta sucio")
@@ -125,7 +125,7 @@ def acciones(estado_meta, costo):
                 print("La ubicacion A esta limpia")
             else:
                 print("Sin accion" + str(costo))
-                print("La  ubicacion A esta limpia")
+                print("La  ubicacion A esta limpia")"""
 
     # Limpieza terminada
     print("La condicion final es:" + str(estado_meta))
